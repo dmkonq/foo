@@ -14,5 +14,9 @@ func baz() (string, error) {
 	return "foo", nil
 }
 
+func qux() (string, error) {
+	return "", errors.New("not implemented")
+}
+
 func main() {
 }
