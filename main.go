@@ -11,6 +11,8 @@ func bar() (string, error) {
 	return "bar", nil
 }
 
+//asdf
+
 func baz() (string, error) {
 	return "baz", nil
 }
