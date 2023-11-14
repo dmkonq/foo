@@ -7,6 +7,7 @@ func foo() (string, error) {
 }
 
 func bar() (string, error) {
+	// asdfkjl
 	return "bar", nil
 }
 
