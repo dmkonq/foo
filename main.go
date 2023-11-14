@@ -11,7 +11,7 @@ func bar() (string, error) {
 }
 
 func baz() (string, error) {
-	return "foo", nil
+	return "baz", nil
 }
 
 func qux() (string, error) {
