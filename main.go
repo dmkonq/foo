@@ -11,14 +11,18 @@ func bar() (string, error) {
 	return "bar", nil
 }
 
-//asdf
-
+// asdf
 func baz() (string, error) {
 	return "baz", nil
 }
 
 func qux() (string, error) {
 	return "", errors.New("not implemented")
+}
+
+// yeet yeets
+func yeet() (string, error) {
+	return "YEET", nil
 }
 
 func main() {
