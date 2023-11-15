@@ -22,7 +22,7 @@ func qux() (string, error) {
 
 // yeet yeets
 func yeet() (string, error) {
-	return "", errors.New("not implemented")
+	return "yeet", nil
 }
 
 func main() {
