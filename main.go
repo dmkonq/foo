@@ -22,7 +22,7 @@ func qux() (string, error) {
 
 // yeet yeets
 func yeet() (string, error) {
-	return "yeet", nil
+	return "YEET", nil
 }
 
 func main() {
