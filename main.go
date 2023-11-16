@@ -7,7 +7,7 @@ func foo() (string, error) {
 }
 
 func bar() (string, error) {
-	return "", errors.New("not implemented")
+	return "bar", nil
 }
 
 func main() {
